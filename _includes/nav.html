@@ -8,14 +8,14 @@
         {% assign base_url = page.url %}
     {% endif %}
     <ul>
-        <li><a class="{% if page.url contains '/index.html' %}active-nav{% endif %}" href="{{site.baseurl}}">Home</a></li>
+        <li><a class="{% if page.url contains '/index.html' %}active-nav{% endif %}" href="{{ site.baseurl }}/">Home</a></li>
         {% for node in site.html_pages %}
             {% assign node_url_parts = node.url | split: '/' %}
             {% assign node_url_parts_size = node_url_parts | size %}
             {% assign filename = node_url_parts | last %}
             {% if node_url_parts_size == 2 and node.url != "/index.html" %}
             <li>
-                <a class="{% if page.url contains node.url %}active-nav{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
+                <a class="{% if page.url contains node.url %}active-nav{% endif %}" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                 {% if page.url contains node.url %}
                     <ul>
                         {% for node2 in site.pages %}
