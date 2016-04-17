@@ -1,0 +1,9 @@
+# Site settings
+title: MinigameCore Docs
+description: >
+  The official documentation of the MinigameCore plugin.
+baseurl: "/Docs"
+github_username:  MinigameCore
+
+# Build settings
+markdown: kramdown

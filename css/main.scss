@@ -1,0 +1,28 @@
+---
+---
+@charset "utf-8";
+
+
+
+// Variables
+$base-font-family: 'Roboto', sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 300;
+$small-font-size: $base-font-size * 0.875;
+
+$style-color: #2a7ae2;
+$style-color-dark: darken($style-color, 15%);
+
+$gray-color: #828282;
+$gray-color-light: lighten($gray-color, 45%);
+$gray-color-dark: darken($gray-color, 25%);
+
+$text-color: #111;
+$background-color: $gray-color-light;
+
+
+// Imports
+@import
+        "layout",
+        "syntax-highlighting"
+;
