@@ -2,7 +2,15 @@
  * Syntax highlighting styles
  */
  .highlighter-rouge {
-    background: $gray-color-light;
+    background: #f8f8f8;
+    color: #333;
+    font-family: Consolas;
+    font-size: 14px;
+    padding: 1px;
+    margin: 0;
+ }
+ .highlighter-rouge code {
+    background: #f8f8f8 !important;
  }
 .highlight {
     background: #fff;
