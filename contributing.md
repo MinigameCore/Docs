@@ -16,6 +16,3 @@ In your PRs, please make sure you fulfill the following:
 normally be master.
 * Do not squash commits unless directed to do so, but please _rebase_ your changes on top of master when you feel your
 changes are ready to be submitted - _do not merge_. We will squash the commits in a way we feel logical.
-
-[pastebin] : http://www.pastebin.com
-[gists] : http://gist.github.com
