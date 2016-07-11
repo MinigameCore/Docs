@@ -10,4 +10,5 @@ permalink: "/index.html"
 [![Travis](https://img.shields.io/travis/MinigameCore/MinigameCore.svg?style=flat-square)](https://travis-ci.org/MinigameCore/MinigameCore)
 
 
-MinigameCore is a framework for Sponge that provides a core set of functions to make minigame development faster.
+Welcome to the official MinigameCore Documentation! MinigameCore is a framework for [Sponge](https://www.spongepowered.org/) that provides
+functions to make minigame development faster. MinigameCore is licensed under the [MIT License](https://tldrlegal.com/license/mit-license).
