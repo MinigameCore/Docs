@@ -20,8 +20,7 @@ A `MinigameModule` is the way that minigames are registered to MinigameCore. A m
             "plugins" : [
                 {
                   "id" : "plugin id",
-                  "optional" : false,
-                  "version" : "the version of the plugin"
+                  "optional" : false
                 }
             ]
         },
